@@ -9,8 +9,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - docker build -t ecs-test .
-      - docker tag ecs-test:latest 336369920320.dkr.ecr.us-east-1.amazonaws.com/ecs-test:latest      
+      - docker build -t ecs-test1 .
+      - docker tag ecs-test1:latest 336369920320.dkr.ecr.us-east-1.amazonaws.com/ecs-test:latest      
   post_build:
     commands:
       - echo Build completed on `date`
