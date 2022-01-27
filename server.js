@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello, welcome to ECS container applications');
+  res.send('Hello, welcome to ECS container applications is working now');
 });
 
 app.listen(PORT, HOST);
